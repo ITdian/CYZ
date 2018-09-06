@@ -1,0 +1,6 @@
+<!--pages/serve/serve.wxml-->
+
+<view class='server_top'>
+  <input  name='search' bindinput='searchInput' bindconfirm="ser_search"></input>
+  <text class='iconfont icon-search' bindtap='server_search'></text>
+</view>

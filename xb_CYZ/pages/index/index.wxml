@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class='index'>
+  <view class='index_search'>
+    <text class='iconfont icon_search'></text>
+    <input placeholder='搜索'  bindtap='chooseLocal'/>
+  </view>
+    <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%; height: 300px;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+  </view>
+   <!-- <view class="btn-area">
+    <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button>
+  </view> -->
+  </view>

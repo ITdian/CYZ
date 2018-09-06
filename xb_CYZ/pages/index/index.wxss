@@ -1,0 +1,31 @@
+/**index.wxss**/
+@import '../../font/iconfont.wxss';
+page{
+  background-color: #f8f8f8;
+  font-size: 32rpx;
+}
+.index .index_search{
+  width: 90%;
+  margin: 10rpx auto 0 auto;
+  border: 3rpx solid #ccc;
+  background-color: #fff;
+  height: 70rpx;
+  border-radius: 15rpx;
+  padding-left: 15rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  margin-bottom: 5rpx;
+}
+.index .index_search text{
+  font-size: 38rpx;
+  color: #95959a;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}

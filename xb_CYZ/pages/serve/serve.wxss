@@ -1,0 +1,32 @@
+/* pages/serve/serve.wxss */
+@import "../../font/iconfont.wxss";
+page{
+  width: 100%;
+}
+.server_top{
+  height: 70rpx;
+  width: 100%;
+  position: relative;
+}
+.server_top input{
+  width: 90%;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-bottom: 1rpx solid #ccc;
+  margin: 0 auto;
+  padding-left: 20rpx;
+  /* pointer-events: none; */
+}
+.server_top text{
+ position: absolute;
+ top: 0;
+ right: 10%;
+ font-size:50rpx;
+ color: #ccc;
+ display: inline-block;
+ width: 70rpx;
+ height: 70rpx;
+ line-height: 70rpx;
+ text-align: center;
+ z-index: 2;
+}

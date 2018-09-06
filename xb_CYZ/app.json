@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/serve/serve",
+    "pages/friend/friend",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"/images/stop_gray.png",
+        "selectedIconPath": "/images/stop.png",
+        "text": "停车位"
+      },
+      {
+        "pagePath": "pages/serve/serve",
+        "iconPath": "/images/car_gray.png",
+        "selectedIconPath": "/images/car.png",
+        "text": "汽车服务"
+      },
+      {
+        "pagePath": "pages/friend/friend",
+        "iconPath": "/images/person_gray.png",
+        "selectedIconPath": "/images/person.png",
+        "text": "车友"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "/images/me_gray.png",
+        "selectedIconPath": "/images/me.png",
+        "text": "车主"
+      }
+    ],
+    "backgroundColor":"#efd9bd",
+    "selectedColor":"#f18510",
+    "color":"#85807a"
+  }
+}
